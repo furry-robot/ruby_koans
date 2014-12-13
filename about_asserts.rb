@@ -16,8 +16,7 @@ class AboutAsserts < Neo::Koan
     assert true, "This should be true -- Please fix this"
   end
 
-  # To understand reality, we must compare our expectations against
-  # reality.
+  # To understand reality, we must compare our expectations against reality.
   def test_assert_equality
     expected_value = 2
     actual_value = 1 + 1
